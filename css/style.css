@@ -1,0 +1,39 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    width: 100vw;
+    height: 20px;
+    background-color: burlywood;
+    display: flex;
+    position: fixed;
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 2px 5px;
+}
+
+#navbar{
+    position: relative;
+}
+
+#home{
+    background-color: antiquewhite;
+}
+
+#about{
+    background-color: aqua;
+}
