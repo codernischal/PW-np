@@ -60,6 +60,8 @@ sr.reveal('.featured-image',{delay: 300})
 
 /* -- PROJECT BOX -- */
 sr.reveal('.project-box',{interval: 200})
+/* -- PROJECT BOX -- */
+sr.reveal('.badge-box',{interval: 200})
 
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})

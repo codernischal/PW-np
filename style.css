@@ -369,6 +369,28 @@ h3{
     border-radius: 5px;
 }
 
+/* ----- BADGE BOX ----- */
+.badge-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.badge-box{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 250px;
+    background: var(--color-white);
+    border-radius: 20px;
+    box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
+    overflow: hidden;
+}
+
+
 /* ----- PROJECTS BOX ----- */
 .project-container{
     display: flex;
@@ -626,6 +648,12 @@ footer{
         justify-content: center;
     }
     .project-box{
+        width: 80%;
+    }
+    .badge-container{
+        justify-content: center;
+    }
+    .badge-box{
         width: 80%;
     }
 
