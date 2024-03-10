@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
 
     <!-- --------- CSS ---------- -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- --------- FAVICON ---------- -->
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 
 
     <title>Nischal Neupane</title>
@@ -23,7 +23,7 @@
         <!-- --------------- HEADER --------------- -->
         <nav id="header">
             <div class="nav-logo">
-                <p class="nav-name"><img src="logo.png" width="55px" class="logo" alt="">ischal</p>
+                <p class="nav-name"><img src="./assets/images/logo.png" width="55px" class="logo" alt="">ischal</p>
                 <span>.</span>
             </div>
             <div class="nav-menu" id="myNavMenu">
@@ -34,10 +34,6 @@
                     </li>
                     <li class="nav_list">
                         <a href="#about" class="nav-link">About</a>
-                        <div class="circle"></div>
-                    </li>
-                    <li class="nav_list">
-                        <a href="#badge" class="nav-link">Badge</a>
                         <div class="circle"></div>
                     </li>
                     <li class="nav_list">
@@ -89,7 +85,7 @@
                 </div>
                 <div class="featured-image">
                     <div class="image">
-                        <img src="avatar.png" alt="avatar">
+                        <img src="assets/images/avatar.png" alt="avatar">
                     </div>
                 </div>
                 <div class="scroll-icon-box">
@@ -152,26 +148,6 @@
                 </div>
             </section>
 
-            <!------------------Badge Box--------------------->
-            <section class="section" id="badge">
-                <div class="top-header">
-                    <h1>Badges</h1>
-                </div>
-                <div class="badge-container">
-                    <div class="badge-box">
-                        <div data-iframe-width="150" data-iframe-height="270"
-                            data-share-badge-id="366bb5b0-ba3e-4e09-bf7a-2393439b4310"
-                            data-share-badge-host="https://www.credly.com"></div>
-                        <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
-                    </div>
-                    <div class="badge-box"><div data-iframe-width="150" data-iframe-height="270"
-                        data-share-badge-id="26bf8475-56b0-4592-b5d2-f17df4ab262f"
-                        data-share-badge-host="https://www.credly.com"></div>
-                    <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script></div>
-                </div>
-                
-            </section>
-
             <!-- -------------- PROJECT BOX ---------------- -->
 
             <section class="section" id="projects">
@@ -213,18 +189,21 @@
                         </div>
                     </div>
                     <div class="col">
-                        <div class="form-control">
-                            <div class="form-inputs">
-                                <input type="text" class="input-field" placeholder="Name">
-                                <input type="text" class="input-field" placeholder="Email">
+                        <form action="https://formsubmit.co/contact@nischalneupane.name.np" method="POST">
+                            <div class="form-control">
+                                <div class="form-inputs">
+                                    <input type="text" class="input-field" placeholder="Name">
+                                    <input type="text" class="input-field" placeholder="Email">
+                                </div>
+                                <div class="text-area">
+                                    <textarea placeholder="Message"></textarea>
+                                </div>
+                                <div class="form-button">
+                                    <button class="btn">Send <i class="uil uil-message"></i></button>
+                                </div>
                             </div>
-                            <div class="text-area">
-                                <textarea placeholder="Message"></textarea>
-                            </div>
-                            <div class="form-button">
-                                <button class="btn">Send <i class="uil uil-message"></i></button>
-                            </div>
-                        </div>
+                        </form>
+
                     </div>
                 </div>
             </section>
@@ -278,7 +257,7 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <!-- ----- MAIN JS ----- -->
-    <script src="main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
